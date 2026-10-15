@@ -37,9 +37,9 @@ Publicado em: <https://ismaelmmachado.github.io/comunidadevitral/>
 - **Marca Nova** (v3): identidade única em todo o site — verde petróleo `#005f6b` + verde acinzentado
   (sálvia) `#94a69a`/`#e9ede9`, quase-preto `#1f2421` e Montserrat. O emblema oficial entra no hero
   da HOME numa moldura clara; a tira de 4 cores (safira/esmeralda/âmbar/rubi) permanece no rodapé.
-- Specs do sistema visual: `openspec/specs/marca-nova/`, `openspec/specs/site-estatico-vitral/`
-- Specs OpenSpec: `openspec/specs/site-estatico-vitral/`, `openspec/specs/marca-nova/`
-  (changes concluídos em `openspec/changes/archive/`).
+- Specs do sistema visual: `docs/specs/marca-nova.md`, `docs/specs/site-estatico-vitral.md`
+- Specs OpenSpec: `docs/specs/site-estatico-vitral.md`, `docs/specs/marca-nova.md`
+  (changes concluídos em `docs/changes/archive/`).
 
 ## Conteúdo
 

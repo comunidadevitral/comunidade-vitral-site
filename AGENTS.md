@@ -17,7 +17,7 @@ Publicado via GitHub Pages: `https://ismaelmmachado.github.io/comunidadevitral/`
 ### Stack
 - **HTML5 + CSS puro** — sem build step, zero dependências de runtime.
 - Identidade única "Marca Nova" em todo o site: verde petróleo + verde acinzentado (sálvia), tipografia **Montserrat**, via Google Fonts.
-- Design tokens: `css/tokens.css` — paleta Marca Nova padrão; especificação completa em `openspec/specs/marca-nova/`.
+- Design tokens: `css/tokens.css` — paleta Marca Nova padrão; especificação completa em `docs/specs/marca-nova.md`.
 - JS mínimo: `js/menu.js` (menu mobile).
 - O hero da HOME usa o emblema da marca (`assets/logos/logo-vitral.png`); a tira de 4 cores é marca inegociável.
 
@@ -25,8 +25,8 @@ Publicado via GitHub Pages: `https://ismaelmmachado.github.io/comunidadevitral/`
 - 9 páginas estáticas de conteúdo na raiz: `index`, `quem-somos`, `no-que-cremos`, `jornada`, `encontros-e-pgs`,
   `grande-banquete`, `criancas-e-familia`, `causas-e-cidade`, `contato` + `404.html`.
 - `css/` (tokens, base, estilo), `js/`, `assets/` (img, logos, favicon, og-image).
-- `docs/` — conteúdo extraído (`conteudo/`, `conteudo/novo/`, `raw/`, `inventario.md`), legado (`openspec-legado/`) e propostas (`propostas/`).
-- `openspec/` — documentação spec-driven (specs: `site-estatico-vitral`, `marca-nova`; `config.yaml`); changes concluídos em `changes/archive/`.
+- `docs/` — conteúdo extraído (`conteudo/`, `conteudo/novo/`, `raw/`), legado (`openspec-legado/`) e propostas (`propostas/`).
+- `docs/specs/` — documentação spec-driven (specs: `site-estatico-vitral`, `marca-nova`; `config.yaml`); changes concluídos em `docs/changes/archive/`.
 - `AGENTS.md`, `README.md` — documentação do projeto.
 
 ### Conteúdo
@@ -54,6 +54,20 @@ Publicado via GitHub Pages: `https://ismaelmmachado.github.io/comunidadevitral/`
 
 ## Design
 
-O sistema visual "Marca Nova" é especificado em `openspec/specs/marca-nova/` e implementado
+O sistema visual "Marca Nova" é especificado em `docs/specs/marca-nova.md` e implementado
 nos tokens de `css/tokens.css`. Estado: **todo o site** (HOME, subpáginas e 404) usa a Marca Nova
 como padrão único — um só mundo visual.
+
+## Agent skills
+
+### Issue tracker
+
+Local markdown issue tracker (files under `.scratch/`). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default triage labels (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout (one `GLOSSARY.md` + `docs/adr/` at repo root). See `docs/agents/domain.md`.
